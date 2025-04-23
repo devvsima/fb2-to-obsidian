@@ -1,40 +1,42 @@
 # FB2 to Obsidian Markdown Converter (Booker)
+[RU](READMEru.md)
 
-📚 Удобный скрипт для конвертации книг в формате `.fb2` в папки с Markdown-файлами, подходящими для чтения в [Obsidian](https://obsidian.md).
-Каждая страница книги сохраняется в отдельном `.md` файле со встроенной навигацией "вперёд/назад".
-
----
-
-## 🤔 Зачем?
-
-Я долго искал удобную читалку книг с синхронизацией между устройствами, но так ничего подходящего и не нашёл.
-Тогда и пришла идея — сделать простой скрипт, который преобразует `.fb2` книгу в структуру, понятную для Obsidian.
-Теперь я могу удобно читать книги прямо в Obsidian, с возможностью перехода между страницами.
+📚 A simple script to convert `.fb2` books into folders of Markdown files optimized for reading in [Obsidian](https://obsidian.md).
+Each page of the book is saved as a separate `.md` file with built-in **next/previous** navigation.
 
 ---
 
-## 🔧 Возможности
+## 🤔 Why?
 
-- Автоматический поиск всех `.fb2` файлов в текущей папке
-- Извлечение названия книги и автора
-- Создание отдельной папки под каждую книгу
-- Разбиение текста на страницы фиксированной длины
-- Генерация Markdown-файлов с навигацией по страницам (вперёд/назад)
+I spent a long time searching for a comfortable book reader with sync between devices — but found nothing that fully suited me.
+That’s when the idea came: create a script that transforms `.fb2` books into a structure that Obsidian can work with.
 
----
-
-## 🖼 Пример результата
-
-_Пример отображения книги в Obsidian:_
-
-![Пример](image.png)
+Now I can read books **directly inside Obsidian**, with smooth page-by-page navigation and full control.
 
 ---
 
-## 🚀 Установка и запуск
+## 🔧 Features
 
-1. Убедитесь, что установлен Python 3.7+
-2. Установите зависимости:
+- Automatically scans for all `.fb2` files in the current folder
+- Extracts book title and author from metadata
+- Creates a separate folder for each book
+- Splits the content into fixed-length pages
+- Generates Markdown files with forward/backward navigation links
+
+---
+
+## 🖼 Example output
+
+_A sample book displayed in Obsidian:_
+
+![Example](image.png)
+
+---
+
+## 🚀 Installation & Usage
+
+1. Make sure you have **Python 3.7+** installed.
+2. Install dependencies and run the script:
 
 ```bash
 uv sync
